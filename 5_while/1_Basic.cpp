@@ -20,8 +20,7 @@ int main () {
 
     int cnt = 1;
     while(cnt <= n){
-        // cout << " 1 " ;
-        cout << cnt << endl;
+        cout << " 1 " ;
         cnt++;
     }
  
