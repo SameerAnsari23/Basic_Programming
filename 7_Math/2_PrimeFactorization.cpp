@@ -12,5 +12,9 @@ int main() {
             n = n / i;
         }
     }
+
+    if (n < 1) {
+        cout << "Enter a number greater than 2" << endl;
+    }
     return 0;
 }
