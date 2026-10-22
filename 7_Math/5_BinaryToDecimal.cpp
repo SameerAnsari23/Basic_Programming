@@ -8,7 +8,8 @@ int main() {
 
     while (n > 0) {
         int rem = n % 10;
-        ans = ans + rem * pow;
+        // ans = ans + rem * pow;
+        ans += rem * pow;
         n = n / 10;
         pow = pow * 2;
     }
