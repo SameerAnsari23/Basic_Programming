@@ -13,9 +13,10 @@ returnType functionName() {
 
 
 // return function
-int add(int &a, int &b) {
+int add(int &a, int b) {
+    int sum = a + b;
     a = a + 1;
-    b = b + 1;
+    b = b + 1
     return a;
 }
 
@@ -23,7 +24,6 @@ int main() {
     int a = 10, b = 9;
 
     // Function Calling
-    cout << add(a, b) << endl;
-    cout << a << " " << b;
+    cout << add(a, b);
     return 0;
 }
