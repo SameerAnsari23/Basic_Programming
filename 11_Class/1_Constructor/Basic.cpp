@@ -10,9 +10,9 @@ public:
 
     // Constructor
     Student(){
-        name = "Rahul";
-        rollNumber = 101;
-        age = 20;
+        name ;
+        rollNumber;
+        age;
         cout << "Constructor Called!" << endl;
     }
 
